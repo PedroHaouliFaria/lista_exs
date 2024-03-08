@@ -31,6 +31,10 @@ c) Imprime os números pares de 2 a 10.
 
 d) Imprime os números ímpares de 2 a 10.
 
+```javascript
+A alternativa correta é a levra a.
+```
+
 ______
 
 **2)** Identificar a linha que falta no código para criar uma classe Veiculo com atributo marca, e uma classe Carro que herda de Veiculo com um método ligar(). 
@@ -46,6 +50,10 @@ B) let ligar = new ligar("Toyota");
 C) class Moto extends Veiculo {};
 
 D) carro1.ligar();
+
+```Javascript
+A alternativa correta é a letra a.
+```
 
 ______
 
@@ -63,6 +71,10 @@ C) 14
 
 D) 12
 
+```Javascript
+A alternativa correta é a letra a.
+```
+
 ______
 
 **4)** Como você criaria um método `acelerar()` em uma classe `Carro`, que recebe um parâmetro `velocidade` e o adiciona a um atributo `velocidadeAtual`?
@@ -75,6 +87,9 @@ C) ![Uma imagem](assets/ex04_3.PNG)
 
 D) ![Uma imagem](assets/ex04_4.PNG)
 
+```Javascript
+A alternativa correta é a letra a.
+```
 ______
 
 **5)** Qual a forma correta de definir uma classe Carro em JavaScript, com um método ligar() e um atributo marca?
@@ -87,6 +102,9 @@ C) ![Uma imagem](assets/ex05_3.PNG)
 
 D) ![Uma imagem](assets/ex05_4.PNG)
 
+```Javascript
+A alternativa correta é a letra a.
+```
 ______
 
 **6)** Observe o código abaixo:
@@ -103,6 +121,9 @@ C) "João Maria"
 
 D) "undefined undefined"
 
+```Javascript
+A alternativa correta é a letra a.
+```
 ______
 
 # Questões dissertativas
@@ -119,6 +140,29 @@ Criando e manipulando Animais:
 - Para cada animal, chame o método descrever() para ver a descrição no console.
 
 Dica: Utilize `console.log()` para exibir as informações!
+
+```Javascript
+
+class Animal {
+    constructor(nome, idade){
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+descrever() {
+        console.log(`Eu sou um ${this.nome} e tenho ${this.idade} anos!`);
+
+    }
+
+}
+
+let animal1 = new Animal("Cachorro", 15);
+let animal2 = new Animal("Gato", 4);
+
+animal1.descrever();
+animal2.descrever();
+
+```
 
 ______
 
